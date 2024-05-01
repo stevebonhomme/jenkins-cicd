@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="cicd-test-4317-flow" doc:id="54f9078f-648c-4b08-8202-74422d62394d" >
 		<http:listener doc:name="Listener" doc:id="90400d5d-923b-4faf-9e99-582e46d66601" config-ref="HTTP_Listener_config" path="/cicd"/>
-		<set-payload value='#["only 4.6 is working"]' doc:name="Set Payload" doc:id="30527be7-1011-464d-90be-7da59c536b3a" />
+		<set-payload value='#["redeploying finally working"]' doc:name="Set Payload" doc:id="30527be7-1011-464d-90be-7da59c536b3a" />
 		<ee:transform doc:name="Transform Message" doc:id="4c978087-1053-4564-bcf8-41a9d2439903" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0

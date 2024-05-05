@@ -33,12 +33,12 @@
         <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>            
             <server>my.anypoint.credentials</server>
-            <applicationName>${appname}</applicationName>
+            <applicationName>cicd-test-4317</applicationName>
             <javaVersion>17</javaVersion>
-            <businessGroup>${business}</businessGroup>
-            <environment>${env}</environment>
-            <workerType>${vCore}</workerType>
-            <workers>${workers}</workers>
+            <businessGroup>IFI</businessGroup>
+            <environment>Sandbox</environment>
+            <workerType>Micro</workerType>
+            <workers>1</workers>
             <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
     </configuration>

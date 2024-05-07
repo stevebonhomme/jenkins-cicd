@@ -32,14 +32,14 @@
 				<configuration>
         <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>            
-            <username>anypoint.username</username>
-            <password>anypoint.password</password>
-            <applicationName>appname</applicationName>
+            <username>${anypoint.username}</username>
+            <password>${anypoint.password}</password>
+            <applicationName>${appname}</applicationName>
             <javaVersion>17</javaVersion>
-            <businessGroup>business</businessGroup>
-            <environment>env</environment>
-            <workerType>vCore</workerType>
-            <workers>1</workers>
+            <businessGroup>${business}</businessGroup>
+            <environment>${env}</environment>
+            <workerType>${vCore}</workerType>
+            <workers>${workers}</workers>
             <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
     </configuration>

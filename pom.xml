@@ -39,7 +39,7 @@
             <businessGroup>business</businessGroup>
             <environment>env</environment>
             <workerType>vCore</workerType>
-            <workers>workers</workers>
+            <workers>1</workers>
             <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
     </configuration>

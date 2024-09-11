@@ -34,8 +34,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
-						<applicationName>${appname}</applicationName>
-						<javaVersion>${jre}</javaVersion>
+						<applicationName>${appname}</applicationName>						
 						<businessGroup>${business}</businessGroup>
 						<environment>${env}</environment>
 						<workerType>${vCore}</workerType>

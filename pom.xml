@@ -34,7 +34,8 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
-						<applicationName>${appname}</applicationName>						
+						<applicationName>${appname}</applicationName>
+						<muleVersion>${app.runtime}</muleVersion>	
 						<businessGroup>${business}</businessGroup>
 						<environment>${env}</environment>
 						<workerType>${vCore}</workerType>
